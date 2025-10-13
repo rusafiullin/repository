@@ -23,8 +23,9 @@ def main():
         print("Задача 10: Определение объема")
         print("Если хотите выйти нажмите Q")
         c = input("Ваш выбор: ")
-        if c == "q":
+        if c.lower() == "q":
             print ("Всего доброго")
+            break
         elif c == "1":
             task1.speed()
         elif c == "2":
